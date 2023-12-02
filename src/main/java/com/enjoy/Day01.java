@@ -35,7 +35,7 @@ public class Day01 extends Day{
         String word[] = input.split("\n");
         int pos = 0;
         int total = 0;
-        while ( pos < word.length) {
+        while (pos < word.length) {
             word[pos] = word[pos].replaceAll("one", "o1ne");
             word[pos] = word[pos].replaceAll("two", "t2wo");
             word[pos] = word[pos].replaceAll("three", "t3hree");
