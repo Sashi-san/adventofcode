@@ -7,6 +7,6 @@ public class ExempleOfInputDay {
     }
 
     private String input = """
-            
+            test
             """;
 }
